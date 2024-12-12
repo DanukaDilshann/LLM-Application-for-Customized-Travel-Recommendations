@@ -1,5 +1,5 @@
 # LLM Application for Customized Travel Recommendations
-
+<img src="Images/image.png" >
 
 ## Installation
 1. Clone this repository to your local machine:
