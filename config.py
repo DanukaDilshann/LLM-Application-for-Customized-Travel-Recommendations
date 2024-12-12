@@ -3,8 +3,11 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import os
 
-sec_key="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"
-os.environ["HUGGINGFACEHUB_API_TOKEN"]=sec_key
+from dotenv import load_dotenv
+
+load_dotenv()
+
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
 # repo_id="Qwen/Qwen2.5-1.5B-Instruct"
 repo_id="microsoft/Phi-3-mini-4k-instruct"
