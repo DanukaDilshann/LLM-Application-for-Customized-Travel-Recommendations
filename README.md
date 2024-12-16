@@ -1,5 +1,5 @@
 # LLM Application for Customized Travel Recommendations
-
+<img src="Images/image.png" >
 
 
 ## Installation
