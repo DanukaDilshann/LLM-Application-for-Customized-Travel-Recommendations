@@ -16,6 +16,12 @@
    cd LLM-Application-for-Customized-Travel-Recommendation
 ```
 
+3. Install the required packages:
+   
+```bash
+   pip install requirements.txt
+```
+
 ## Running the Application
 To launch the Streamlit app, execute the following command:
 
