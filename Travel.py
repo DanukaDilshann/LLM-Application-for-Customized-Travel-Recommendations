@@ -2,8 +2,8 @@ import streamlit as st
 from langchain.prompts import PromptTemplate
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-from config import llm
-from prompt_temp import prompt
+from src.config import llm
+from src.prompt_temp import prompt
 
 
 #streamli

@@ -3,21 +3,9 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import os
 from dotenv import load_dotenv
-
-<<<<<<< HEAD
-=======
-from dotenv import load_dotenv
-
 load_dotenv()
 
 os.environ['HUGGINGFACEHUB_API_TOKEN'] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
->>>>>>> 5a705a27e936aa237c71006be50b012763821b43
-
-load_dotenv()
-
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
-# sec_key="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"
-# os.environ["HUGGINGFACEHUB_API_TOKEN"]=sec_key
 
 repo_id="microsoft/Phi-3-mini-4k-instruct"
 
